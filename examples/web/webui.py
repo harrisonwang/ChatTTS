@@ -191,6 +191,7 @@ def main():
                 streaming=stream,
                 interactive=False,
                 show_label=True,
+                show_download_button=True,
                 waveform_options=gr.WaveformOptions(
                     sample_rate=24000,
                 ),
